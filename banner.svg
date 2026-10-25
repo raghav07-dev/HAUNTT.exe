@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-label="HAUNT.exe, Hacktoberfest Hack Day 2026 Halloween banner">
+  <title>HAUNT.exe - Hacktoberfest Hack Day 2026</title>
+  <style>
+    @keyframes floaty { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+    @keyframes flicker { 0%,100% { opacity: 1; } 50% { opacity: 0.75; } }
+    .ghost { animation: floaty 3.5s ease-in-out infinite; }
+    .glow { animation: flicker 2.2s ease-in-out infinite; }
+  </style>
+  <rect width="1200" height="400" fill="#120d1c"/>
+  <rect x="6" y="6" width="1188" height="388" rx="14" fill="none" stroke="#ff7a1a" stroke-width="3" stroke-dasharray="14 8"/>
+
+  <g fill="#f6e7b4" opacity="0.9">
+    <circle cx="90" cy="60" r="2"/><circle cx="300" cy="40" r="1.6"/><circle cx="520" cy="55" r="2"/>
+    <circle cx="700" cy="35" r="1.6"/><circle cx="880" cy="70" r="2"/><circle cx="1150" cy="50" r="2"/>
+    <circle cx="380" cy="360" r="1.6"/><circle cx="820" cy="365" r="2"/><circle cx="1130" cy="340" r="1.6"/>
+  </g>
+
+  <circle cx="1030" cy="95" r="52" fill="#f6e7b4"/>
+  <circle cx="1012" cy="82" r="9" fill="#e3d29a"/>
+  <circle cx="1050" cy="110" r="6" fill="#e3d29a"/>
+  <circle cx="1040" cy="72" r="4" fill="#e3d29a"/>
+
+  <g fill="#2a1f3d">
+    <path d="M430 85 q15 -18 30 0 q15 -18 30 0 q-15 4 -30 22 q-15 -18 -30 -22z"/>
+    <path d="M750 70 q12 -14 24 0 q12 -14 24 0 q-12 3 -24 18 q-12 -15 -24 -18z"/>
+    <path d="M300 130 q10 -12 20 0 q10 -12 20 0 q-10 3 -20 15 q-10 -12 -20 -15z"/>
+  </g>
+
+  <g class="glow">
+    <ellipse cx="170" cy="272" rx="92" ry="72" fill="#ff7a1a"/>
+    <path d="M170 200 q-45 20 -45 72 q0 52 45 72" fill="none" stroke="#d65a00" stroke-width="3"/>
+    <path d="M170 200 q45 20 45 72 q0 52 -45 72" fill="none" stroke="#d65a00" stroke-width="3"/>
+    <path d="M170 200 v144" stroke="#d65a00" stroke-width="3"/>
+    <rect x="164" y="186" width="14" height="24" rx="3" fill="#3a7d2a"/>
+    <path d="M130 258 L150 258 L140 236 Z" fill="#ffd23f"/>
+    <path d="M190 258 L210 258 L200 236 Z" fill="#ffd23f"/>
+    <path d="M132 288 L148 298 L160 288 L170 300 L180 288 L192 298 L208 288 L198 314 Q170 326 142 314 Z" fill="#ffd23f"/>
+  </g>
+
+  <g class="ghost">
+    <path d="M985 335 L985 255 Q985 195 1045 195 Q1105 195 1105 255 L1105 335 L1085 318 L1065 335 L1045 318 L1025 335 L1005 318 Z" fill="#e9e6f7"/>
+    <circle cx="1022" cy="250" r="9" fill="#120d1c"/>
+    <circle cx="1068" cy="250" r="9" fill="#120d1c"/>
+    <ellipse cx="1045" cy="282" rx="9" ry="12" fill="#120d1c"/>
+  </g>
+
+  <text x="603" y="203" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="92" font-weight="700" fill="#7b2cff">HAUNT.exe</text>
+  <text x="600" y="200" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="92" font-weight="700" fill="#ff7a1a">HAUNT.exe</text>
+  <text x="600" y="255" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="26" letter-spacing="6" fill="#e9e6f7">HACKTOBERFEST HACK DAY 2026</text>
+  <text x="600" y="297" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#b9a7ff">Campus Assistant | RAG on open-weight Gemma 4</text>
+</svg>
